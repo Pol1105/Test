@@ -1,0 +1,4 @@
+while true do
+game.Players.LocalPlayer.Character.Head.Display.Frame.TextLabel.TextColor3 = Color3.fromHSV(tick()%5/5,1,1)
+wait(0.01)
+end
