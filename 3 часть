@@ -1,0 +1,6 @@
+local player = game.Players.LocalPlayer
+local spear = workspace.Players:FindFirstChild(player.Name):FindFirstChild("Spear"):FindFirstChild("Spear")
+
+while wait() do
+spear.Color = Color3.fromHSV(tick()%5/5,1,1)
+end
